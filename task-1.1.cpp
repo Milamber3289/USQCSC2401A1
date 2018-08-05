@@ -26,7 +26,7 @@ bool is_palindrome(string s)
 	
 	//if first character is a capital, change to lowercase then call function again
 		if(isupper(s[0])){
-		s[0]=tolower(s[s.length() - 1]);
+		s[0]=tolower(s[0]);
 		return is_palindrome(s.substr(0, s.length()));			
 	}
 	

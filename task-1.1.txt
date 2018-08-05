@@ -1,0 +1,21 @@
+***************************************************************
+Compilation Messages:
+***************************************************************
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>g++ -Wall task-1.1.cpp -o task-1.1
+
+***************************************************************
+Sample Runs:
+***************************************************************
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>task-1.1
+Enter a string: A man, a plan, a canal - Panama!
+A man, a plan, a canal - Panama! is a palindrome.
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>task-1.1
+Enter a string: No trace; not ONE (1) carton...
+No trace; not ONE (1) carton... is a palindrome.
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>task-1.1
+Enter a string: This is clearly not a palindrome
+This is clearly not a palindrome is not a palindrome.
