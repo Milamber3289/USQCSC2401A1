@@ -1,5 +1,9 @@
 #ifndef Polygon_H
 #define Polygon_H
+#include<vector>
+#include<cmath>
+using namespace std;
+
 class Polygon {
 public:
 	void add(double x, double y); // add a vertex
