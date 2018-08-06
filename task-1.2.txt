@@ -1,0 +1,17 @@
+***************************************************************
+Compilation Messages:
+***************************************************************
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>g++ -Wall test.cpp polygon.cpp -o task-1.2
+
+***************************************************************
+Sample Runs:
+***************************************************************
+
+C:\MinGW-4.7.1\Projects\USQCSC2401A1>task-1.2
+Area = 200
+
+***************************************************************
+Explanation:
+***************************************************************
+We cannot use the polygon class to get the area of the second polygon because is it not convex. The accuracy of the return value for a concave polygon would depend on the order in which the vertices were added. It's possible that the triangle areas calculated would include some of the area outside the shape, and miss some of the area inside the shape. 

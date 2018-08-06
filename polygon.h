@@ -2,7 +2,6 @@
 #define Polygon_H
 #include<vector>
 #include<cmath>
-#include<iostream>
 using namespace std;
 
 class Polygon {
